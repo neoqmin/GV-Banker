@@ -13,7 +13,7 @@
 	@struct		USER_DEFINE_STRUCT
 	@brief		struct sample for GV_RESOURCE
 	@date		2015.06.26
-	@author		황규민
+	@author		Kevin Hwang
 */
 typedef struct _USER_DEFINED_STRUCT {
 	ULONG		Data1;
@@ -60,7 +60,7 @@ VrCreateResource(PVOID pResurce, ULONG ulLength);
 /**
 	@brief		delete resource.
 	@date		2015.06.26
-	@author		황규민
+	@author		Kevin Hwang
 */
 VOID
 VrDeleteResource();
